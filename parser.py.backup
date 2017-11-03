@@ -1,0 +1,106 @@
+from pyModbusTCP.client import ModbusClient
+import time
+
+SERVER_HOST = "192.168.0.253"
+SERVER_PORT = 502
+
+c = ModbusClient()
+
+c.host(SERVER_HOST)
+c.port(SERVER_PORT)
+
+tmp = []
+
+vpu = 0
+ipu = 0
+
+# batt
+battery_voltage = 0
+target_voltage = 0
+charge_current = 0
+charge_state = 0
+output_power = 0
+
+# array
+array_voltage = 0
+array_current = 0
+sweep_vmp = 0
+sweep_voc = 0
+sweep_pmax = 0
+
+# temp
+battery_temp = 0
+headsink_temp = 0
+
+# log
+amp_hours = 0
+kw_hours = 0
+
+
+while True:
+    if not c.is_open():
+        if not c.open():
+            print("unable to connect to " +
+                  SERVER_HOST + ":" + str(SERVER_PORT))
+
+    if c.is_open():
+        tmp = c.read_holding_registers(0, 4)
+        vpu = tmp[0]
+        ipu = tmp[2]
+
+        battery_voltage = c.read_holding_registers(
+            0x26, 1)[0] * vpu * (2**(-15))
+        target_voltage = c.read_holding_registers(
+            0x33, 1)[0] * vpu * (2**(-15))
+        charge_current = c.read_holding_registers(
+            0x27, 1)[0] * ipu * (2**(-15))
+        charge_state = c.read_holding_registers(0x32, 1)[0]
+        output_power = c.read_holding_registers(
+            0x3a, 1)[0] * vpu * ipu * (2**(-17))
+
+        # array
+        array_voltage = c.read_holding_registers(0x1b, 1)[0] * vpu * (2**(-15))
+        array_current = c.read_holding_registers(0x1d, 1)[0] * ipu * (2**(-15))
+        sweep_vmp = c.read_holding_registers(0x3d, 1)[0] * vpu * (2**(-15))
+        sweep_voc = c.read_holding_registers(0x3e, 1)[0] * vpu * (2**(-15))
+        sweep_pmax = c.read_holding_registers(
+            0x3c, 1)[0] * vpu * ipu * (2**(-17))
+
+        # temp
+        battery_temp = c.read_holding_registers(0x25, 1)[0]
+        headsink_temp = c.read_holding_registers(0x23, 1)[0]
+
+        # log
+        amp_hours = (c.read_holding_registers(0xe082, 2)[
+                     1] * 65536 + c.read_holding_registers(0xe082, 2)[0]) * 0.1
+        kw_hours = c.read_holding_registers(0xe086, 1)[0]
+
+        print(battery_voltage)
+        print(target_voltage)
+        print(charge_current)
+        print(charge_state)
+        print(output_power)
+        print("")
+
+        # array
+        print(array_voltage)
+        print(array_current)
+        print(sweep_vmp)
+        print(sweep_voc)
+        print(sweep_pmax)
+        print("")
+
+        # temp
+        print(battery_temp)
+        print(headsink_temp)
+        print("")
+
+        # log
+        print(amp_hours)
+        print(kw_hours)
+
+        print("----------------------------------------")
+        print("")
+
+    # sleep 2s before next polling
+    time.sleep(1)

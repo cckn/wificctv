@@ -1,0 +1,270 @@
+------------------------------------------------------------
+/usr/bin/pip run on Fri Nov  3 00:24:22 2017
+Downloading/unpacking peewee
+  Getting page https://pypi.python.org/simple/peewee/
+  URLs to search for versions for peewee:
+  * https://pypi.python.org/simple/peewee/
+  Analyzing links from page https://pypi.python.org/simple/peewee/
+    Found link https://pypi.python.org/packages/01/6d/b176fee27a251784a872e4e75969ca8c0d1a424c3e4e2e81f55068943537/peewee-2.2.1.tar.gz#md5=f177fed387650a86c70e5f804e9c95aa (from https://pypi.python.org/simple/peewee/), version: 2.2.1
+    Found link https://pypi.python.org/packages/02/42/96d9d5f3636d390767b2f220ec2ad2b024391d381dead7b0e1d5c6217bbb/peewee-0.3.0.tar.gz#md5=bd59a73649fdd43a371fd6de8e52f92b (from https://pypi.python.org/simple/peewee/), version: 0.3.0
+    Found link https://pypi.python.org/packages/04/4d/aa98d0d091217a251eec51e80378b5de56b9285643d73e71a599de842f8e/peewee-0.6.0.tar.gz#md5=b93369885ee563810a00b0bcbd7ef778 (from https://pypi.python.org/simple/peewee/), version: 0.6.0
+    Found link https://pypi.python.org/packages/04/a2/debd35baf93df890364630d9735ba560dd5cc6b69c2d602c249e7efef369/peewee-2.0.3.tar.gz#md5=b4b31485245c42a36fd2d92dae0ba6a7 (from https://pypi.python.org/simple/peewee/), version: 2.0.3
+    Found link https://pypi.python.org/packages/06/74/675172c0d358cd840805629c93e90c3dcb8f968f6cadd9225fa4dc32ee90/peewee-2.0.2.tar.gz#md5=86d70bf9363e7413fcd48bc07392ebf7 (from https://pypi.python.org/simple/peewee/), version: 2.0.2
+    Found link https://pypi.python.org/packages/06/e4/5bef35516f42ae09ef44942def7b6254370ff5f380ef32edddc780b71f59/peewee-2.7.2.tar.gz#md5=1fc2e58271bb4b2ffff68e52a1c59de2 (from https://pypi.python.org/simple/peewee/), version: 2.7.2
+    Found link https://pypi.python.org/packages/08/43/9939f98d6c4f81d9d26b21ddcdf2e97b9d0cdacc02e7b8ac98101b1eb8c7/peewee-0.2.2.tar.gz#md5=deee1b13105a9fca5c108bc7ebf9d1a9 (from https://pypi.python.org/simple/peewee/), version: 0.2.2
+    Found link https://pypi.python.org/packages/08/ce/44c17006d42818b9f53b6a995847c32543564b1dc89c7b7e32b5b6be3c8f/peewee-2.2.4.tar.gz#md5=6dd1081955d44c2ed6d25f6c550de844 (from https://pypi.python.org/simple/peewee/), version: 2.2.4
+    Found link https://pypi.python.org/packages/12/ab/5bdd603f80a3557befc6396aec547a6e4ee94d323cab705026c6c14023c4/peewee-2.6.4.tar.gz#md5=519fa81bd536cab88f204f37f29c94ed (from https://pypi.python.org/simple/peewee/), version: 2.6.4
+    Found link https://pypi.python.org/packages/13/b5/d54fdf8b4a0f5bd2d061ee5e2eaaf4bf5512243d6da4944a6ec3508f9760/peewee-2.6.3.tar.gz#md5=663465329a123060e4af4392f8a7077f (from https://pypi.python.org/simple/peewee/), version: 2.6.3
+    Found link https://pypi.python.org/packages/16/06/bdcf3dd9cb58987a56c62b7c7e1fd75893041975e07ad43cdc8e64340794/peewee-0.2.0.tar.gz#md5=dae22fc3b768307bf7c330ddca0b07f8 (from https://pypi.python.org/simple/peewee/), version: 0.2.0
+    Found link https://pypi.python.org/packages/18/94/db7d5f9fbb672d1cc0f9c51187bd5dfdeafed7a6bd22ea87e601cbd961dd/peewee-2.8.3.tar.gz#md5=4ee5504a7b1375b5c33bf0a4dd594855 (from https://pypi.python.org/simple/peewee/), version: 2.8.3
+    Found link https://pypi.python.org/packages/18/d1/1aefc00a10dfc5c179197fd95fd0c687d898f381a6deb12aef2ebad91ac9/peewee-0.7.3.tar.gz#md5=f438994b2875cadc3a26a83790079978 (from https://pypi.python.org/simple/peewee/), version: 0.7.3
+    Found link https://pypi.python.org/packages/1d/54/530e6e7987ea2f0e231320c7bc0127cfee44a413f10174ecbf5b7abaecec/peewee-2.7.3.tar.gz#md5=d3540e4f1e57c33cf1b6197e06f67e72 (from https://pypi.python.org/simple/peewee/), version: 2.7.3
+    Found link https://pypi.python.org/packages/1f/5f/b1a535d12974bc71546194d78576d9f61a4afcc27c7dab54bbbecc69cfb6/peewee-0.7.2.tar.gz#md5=13fc5fffd32e57cea73d3a7b23ff2a1f (from https://pypi.python.org/simple/peewee/), version: 0.7.2
+    Found link https://pypi.python.org/packages/1f/ec/c81137b428816df7fca209e6b253f3a2a9d16015446b0b2777ab13f70910/peewee-2.1.7.tar.gz#md5=59695bf5f83647075b2e9c7a6704ebfd (from https://pypi.python.org/simple/peewee/), version: 2.1.7
+    Found link https://pypi.python.org/packages/20/27/3290d2bf3a4e3a645e065fb75f3388804cb7186087d51d06edd8371db24b/peewee-2.8.0.tar.gz#md5=973250df50a081b67d4216b88f694945 (from https://pypi.python.org/simple/peewee/), version: 2.8.0
+    Found link https://pypi.python.org/packages/24/53/42ac3a2cd357e3f9e96fa556bd81a6b9d70f25c7b2b824fe2b4299a5e263/peewee-2.1.2.tar.gz#md5=372e07890adca128545aa4c756a3db71 (from https://pypi.python.org/simple/peewee/), version: 2.1.2
+    Found link https://pypi.python.org/packages/26/21/618e4a5cb3233a97b2b15cd23372cbbe2a443f45443396741a394eb4bcac/peewee-0.7.0.tar.gz#md5=3319633d9933f47f1cdd8cd616add7ae (from https://pypi.python.org/simple/peewee/), version: 0.7.0
+    Found link https://pypi.python.org/packages/29/21/79e29339c95b9759b14baf3b394852fc209acfb27fad2b863cd55cc4a52a/peewee-2.1.3.tar.gz#md5=8447c3ef930fd34327ccd963d96171bd (from https://pypi.python.org/simple/peewee/), version: 2.1.3
+    Found link https://pypi.python.org/packages/2a/fe/bc3c0269a2def1e65a5527ca3c9777d4dd2243ad5ef7b4c23231c04d36c5/peewee-2.1.4.tar.gz#md5=7118e364b3fa9409a9003f34415a2394 (from https://pypi.python.org/simple/peewee/), version: 2.1.4
+    Found link https://pypi.python.org/packages/2b/5d/485f45f32953da4abdba4ccfa8d74334d0b2e252fd1b51ef00ed3059ab64/peewee-2.9.2.tar.gz#md5=94a3fedc5db67609fffc2dda9afcf625 (from https://pypi.python.org/simple/peewee/), version: 2.9.2
+    Found link https://pypi.python.org/packages/2e/03/79c6d2b5a70d89565ff4957cf6f05c657fa80c4dedb46f7fcd71476be27a/peewee-2.7.4.tar.gz#md5=42c75e4d855ba593c065087fc9981884 (from https://pypi.python.org/simple/peewee/), version: 2.7.4
+    Found link https://pypi.python.org/packages/2e/22/605fbee7f336b2e98cc036f965bd8c33bcd2e9e76f19bf35a986e1718ec6/peewee-0.9.2.tar.gz#md5=894cc1dc531c493b5ce2a15ff1a8d8e6 (from https://pypi.python.org/simple/peewee/), version: 0.9.2
+    Found link https://pypi.python.org/packages/2e/d0/0faf651e9d76e88b1ff8e8ef46314175a6b6fb7f848d2c57bcd1d226695f/peewee-2.0.5.tar.gz#md5=3e2bd4eddf3ed8073a27bba997ff73a4 (from https://pypi.python.org/simple/peewee/), version: 2.0.5
+    Found link https://pypi.python.org/packages/2f/f1/9354a9474a333398d802a9c46a9bb1bc7533618009ef34252cd63491c152/peewee-0.7.5.tar.gz#md5=aeb1964a06e43791f9dd6e165a0d9108 (from https://pypi.python.org/simple/peewee/), version: 0.7.5
+    Found link https://pypi.python.org/packages/31/1f/f12fcf426a923d1942db017a015c1c904f85dc7060043ffa24b1576f0d2f/peewee-0.1.0.tar.gz#md5=ce9ca14cd9d6903ab9b6c341108919d1 (from https://pypi.python.org/simple/peewee/), version: 0.1.0
+    Found link https://pypi.python.org/packages/32/2e/49bb1b044c48393603efedea87ee4b14906083034aee579069c337e6070d/peewee-0.8.0.tar.gz#md5=77b48b0e8724e53032e823659bfdc677 (from https://pypi.python.org/simple/peewee/), version: 0.8.0
+    Found link https://pypi.python.org/packages/33/7a/48b1ee5d676820c52cbe0952edf989f3f2dd23ff3f9e40e54341d9984583/peewee-2.0.9.tar.gz#md5=609c7c0df3306557222b6b8da9b07ae3 (from https://pypi.python.org/simple/peewee/), version: 2.0.9
+    Found link https://pypi.python.org/packages/34/f6/ecf01d2f0fa2c21802ad99c3f97a54b2704fcf23240279a315a8072d7732/peewee-2.2.2.tar.gz#md5=d357915bb351afde1acc6243c30fc6a4 (from https://pypi.python.org/simple/peewee/), version: 2.2.2
+    Found link https://pypi.python.org/packages/35/33/8304eb1b4fb9d3056a677ba1aa22860aa1246f1898eca219571086799f9d/peewee-2.7.0.tar.gz#md5=cbbda552293a9db5cfcaaf4211cdae29 (from https://pypi.python.org/simple/peewee/), version: 2.7.0
+    Found link https://pypi.python.org/packages/36/b0/cee42da7df76e01454a8f6551716f609f968939da4a773a9d87c1c2dfce7/peewee-2.4.4.tar.gz#md5=c6f7cf57b53f92893430341caf72ec54 (from https://pypi.python.org/simple/peewee/), version: 2.4.4
+    Found link https://pypi.python.org/packages/3a/7c/b07db7601298ba695341b562169356aef93d509343522f26e8c769f76cbc/peewee-2.6.1.tar.gz#md5=c597c28d62da14e38be018a2e0723dee (from https://pypi.python.org/simple/peewee/), version: 2.6.1
+    Found link https://pypi.python.org/packages/3c/b6/f268f48b0c1c77ea102345c24129da2ad4e4a05dbade789d460e7608e4de/peewee-2.4.0.tar.gz#md5=502028fb91b4209592279a7c545e2364 (from https://pypi.python.org/simple/peewee/), version: 2.4.0
+    Found link https://pypi.python.org/packages/41/64/613b5494a29e72be12084398f0700a1cb79105c9e7249be4b26ef9a506a9/peewee-2.0.8.tar.gz#md5=feb0662719dfb036b780034b821f1ff6 (from https://pypi.python.org/simple/peewee/), version: 2.0.8
+    Found link https://pypi.python.org/packages/41/dc/e44aae043e8ae2b0c77db4fcfc04e5f4ac3960e0247ed2d87d6f04b639a6/peewee-0.9.0.tar.gz#md5=603b65c0d543827b786b0b969633f01e (from https://pypi.python.org/simple/peewee/), version: 0.9.0
+    Found link https://pypi.python.org/packages/44/c1/39e4b90a4b8221bdaa6a60ca3e8b85c968ca27e5ea93152cafbc55808b5d/peewee-0.5.0.tar.gz#md5=a36124e5608fe5c9c50d80b22a1427b4 (from https://pypi.python.org/simple/peewee/), version: 0.5.0
+    Found link https://pypi.python.org/packages/47/18/ac12de1beecd0ca260f46c93d0a1605882d5660c5042d7879cc5a6f80805/peewee-1.0.0.tar.gz#md5=0d776b3ef3808ef1d769ceae1594b4de (from https://pypi.python.org/simple/peewee/), version: 1.0.0
+    Found link https://pypi.python.org/packages/48/87/559b2589e427ef91c8a009b546580706bccc7a73bb459adbf0fd588085b1/peewee-0.9.1.tar.gz#md5=d7d6d59c5ad48c32f47276d6184b2e18 (from https://pypi.python.org/simple/peewee/), version: 0.9.1
+    Found link https://pypi.python.org/packages/48/88/979b0e3647e2bffc91985e3c40e90c50f68dd0c6d51df3ce6a70342aad21/peewee-2.0.7.tar.gz#md5=e41eee31012e96f8bb367226a891f5a7 (from https://pypi.python.org/simple/peewee/), version: 2.0.7
+    Found link https://pypi.python.org/packages/4c/b7/b8c0beec85af1afd12c3042e2f2ad589ebe8887f3d51e652edd697e01f53/peewee-0.9.5.tar.gz#md5=063417e5d039c8fa9424c478522bda49 (from https://pypi.python.org/simple/peewee/), version: 0.9.5
+    Found link https://pypi.python.org/packages/51/5d/f5a7628f8b89bfa3aaafed2a570b28d3861493e7a9d70f0f1d51285a7f03/peewee-0.7.1.tar.gz#md5=855d4fd2fcd00013bebd4a45e8a7b256 (from https://pypi.python.org/simple/peewee/), version: 0.7.1
+    Found link https://pypi.python.org/packages/55/fb/8c4ec7c78c7fe0fa737bae2bd5701fe9caab0c6f349e303a142ba0532b10/peewee-2.10.0.tar.gz#md5=e3b1cdc2cd0c66c1424caf76d4ac815d (from https://pypi.python.org/simple/peewee/), version: 2.10.0
+    Found link https://pypi.python.org/packages/59/4a/a1b78b0e47e880c07da21d633ff2ac8d5edbf969049a414edfbdadaed869/peewee-2.8.1.tar.gz#md5=542f5c3e7792c14da6c5bc385f90ca77 (from https://pypi.python.org/simple/peewee/), version: 2.8.1
+    Found link https://pypi.python.org/packages/60/37/43f80e94ee9142a51caf3bd56d72cfb55f9d271e0abd01a752db58b2d40c/peewee-2.7.1.tar.gz#md5=6ddaacea6972e1b53a3a95f0bbf0cfbd (from https://pypi.python.org/simple/peewee/), version: 2.7.1
+    Found link https://pypi.python.org/packages/60/8d/0c250727a61a5dcaa5303be8d32e30cbcb465eaf5ea58fc7c84ce5d5d851/peewee-0.8.2.tar.gz#md5=2020ea39b10dabdd1768304753976aac (from https://pypi.python.org/simple/peewee/), version: 0.8.2
+    Found link https://pypi.python.org/packages/61/04/114e2f093ee47645141041998016fe1bbfdee066279a47fb3e2d45a3b84f/peewee-0.4.0.tar.gz#md5=836310b63f2c74996be09bdf158cbd4e (from https://pypi.python.org/simple/peewee/), version: 0.4.0
+    Found link https://pypi.python.org/packages/63/c4/20633d8f80a13f5b6e75ac816b49881c1704e442db4a577185bf7ca90eaa/peewee-2.4.6.tar.gz#md5=7088d3b2d80b769c79efd4a6dc88b2ee (from https://pypi.python.org/simple/peewee/), version: 2.4.6
+    Found link https://pypi.python.org/packages/65/c5/5b966662beea1e2b15fd79d54ae5b76aefff0eff99d0d16c21ce299de2d9/peewee-0.9.6.tar.gz#md5=cc2d1b38ac0c43ddf67ac5faa7152cf7 (from https://pypi.python.org/simple/peewee/), version: 0.9.6
+    Found link https://pypi.python.org/packages/65/f8/3ccf22e710528ed1b6684006ef9f5b02f3a071b70684253e1066696670bf/peewee-0.8.1.tar.gz#md5=26fdb96a162ab9e4334356f96eed8840 (from https://pypi.python.org/simple/peewee/), version: 0.8.1
+    Found link https://pypi.python.org/packages/78/60/c93f81d06da4d3191aedf6ed89cfdd87217475ab7fd542f9ddf11ac7a83a/peewee-0.6.2.tar.gz#md5=2fafa9160649b689b8df2ed34e3fd306 (from https://pypi.python.org/simple/peewee/), version: 0.6.2
+    Found link https://pypi.python.org/packages/78/f7/0c6123835fa3403e4bc27b6f549bb75aae5a59f700774af831f7b80bab65/peewee-2.1.6.tar.gz#md5=0df93bc849b440e5470d2bd2fe2bed6a (from https://pypi.python.org/simple/peewee/), version: 2.1.6
+    Found link https://pypi.python.org/packages/7a/87/cfad4ff51b40081ac7820c900407e13e1b43606a384c79220fe4ed474a02/peewee-0.3.1.tar.gz#md5=25cc92cf9841c1e5adab62ada9f401a1 (from https://pypi.python.org/simple/peewee/), version: 0.3.1
+    Found link https://pypi.python.org/packages/7a/bc/aafce76cae9362dccf70e35c16a6cc11d114ebb640bbb86d76255be5c0d6/peewee-2.10.2.tar.gz#md5=d0639ecbc08f9e6a1115fc661d59a34d (from https://pypi.python.org/simple/peewee/), version: 2.10.2
+    Found link https://pypi.python.org/packages/7a/c1/7c775636e0e5349e927311f3be3fe8f1172bb09816325486d1e4722ad81c/peewee-2.1.5.tar.gz#md5=03500371171971a990861826161ebf63 (from https://pypi.python.org/simple/peewee/), version: 2.1.5
+    Found link https://pypi.python.org/packages/7d/52/ab1af32685a40595d263f001a306c3c75d6381385c600717d14b9a527584/peewee-2.8.7.tar.gz#md5=17bd404296d897a720ebe4f0fbba8576 (from https://pypi.python.org/simple/peewee/), version: 2.8.7
+    Found link https://pypi.python.org/packages/80/ff/c9a82c9714e9692738c829068e03040e4a215f2c6e2f7c63d2a50e0e46b3/peewee-2.4.5.tar.gz#md5=2224ec291f5f54a81b0aa6eb15e40afa (from https://pypi.python.org/simple/peewee/), version: 2.4.5
+    Found link https://pypi.python.org/packages/81/2c/e8a676e6a9bdea092e8ec67f1d433f2e258ad0c65bc9fb7fd199c650d4e5/peewee-2.2.3.tar.gz#md5=1244a78fa10e8e1c8c1c1c4316bc1e23 (from https://pypi.python.org/simple/peewee/), version: 2.2.3
+    Found link https://pypi.python.org/packages/82/2e/3818093d2e4a7ae77ad7546bc517373cd4895a595cf4ad5851d941979ed7/peewee-2.0.0.tar.gz#md5=2f454350f81c34e0ee4163c1cc33c9e1 (from https://pypi.python.org/simple/peewee/), version: 2.0.0
+    Found link https://pypi.python.org/packages/85/05/9009ec62d92b64b79aa22ce623d3076fc479360ec37cc4400c8a7d1ff98e/peewee-2.8.8.tar.gz#md5=84064ae545f4a93ec349f2d59cb47810 (from https://pypi.python.org/simple/peewee/), version: 2.8.8
+    Found link https://pypi.python.org/packages/8a/f3/aa10480e1f63e468bba9d57b3f952218ea1d8bbc8baba0a5d8373513fddd/peewee-0.7.4.tar.gz#md5=cd23d4c33c61c30ea4118964aa2e7a70 (from https://pypi.python.org/simple/peewee/), version: 0.7.4
+    Found link https://pypi.python.org/packages/8c/f1/b6eabc72ac0f04c246bcc2bf70cea8ce6386c92bada49096a82bb5be5bb2/peewee-2.0.6.tar.gz#md5=7c6936e7a3fd16debe4e0be66e8950f6 (from https://pypi.python.org/simple/peewee/), version: 2.0.6
+    Found link https://pypi.python.org/packages/8f/89/57309a922f685179be190e3c6a8b9f794b3064d56bdb6dc861f8b8dc6b66/peewee-2.6.0.tar.gz#md5=f083bddad369114e0eb1f79c2b810c98 (from https://pypi.python.org/simple/peewee/), version: 2.6.0
+    Found link https://pypi.python.org/packages/93/de/5862e1f72853503c85296a6a5a416e24b5f2616acf21bc0c4ae6da36413d/peewee-2.9.1.tar.gz#md5=2a0db8e7fa4d71b74ea327a3db322371 (from https://pypi.python.org/simple/peewee/), version: 2.9.1
+    Found link https://pypi.python.org/packages/94/22/7db5d2605af626cebdf0e0666a0687df2f16fc112708a87882053ca3e2bd/peewee-2.2.5.tar.gz#md5=252c1b31a5cd719007eab3fc524bfb82 (from https://pypi.python.org/simple/peewee/), version: 2.2.5
+    Found link https://pypi.python.org/packages/9a/1f/b3da3032da905a8286368d1fec2b7d00ee39782e6eea75b6aac818602f3e/peewee-2.3.1.tar.gz#md5=a2f2fd5ff14e6f2a6382ade6142a3154 (from https://pypi.python.org/simple/peewee/), version: 2.3.1
+    Found link https://pypi.python.org/packages/9d/6a/519bb182a360623c8cb5eb9262aacb595443123646ae7e524034791c638b/peewee-0.1.1.tar.gz#md5=e5563dd0af33c1d7abd45be0a429b56d (from https://pypi.python.org/simple/peewee/), version: 0.1.1
+    Found link https://pypi.python.org/packages/9e/1a/fa30ef4a82c318101874616ee9d909e7c18e99491878f4cc07e729c7409b/peewee-2.8.2.tar.gz#md5=65e6f8333281090114efbe37ec1b42cf (from https://pypi.python.org/simple/peewee/), version: 2.8.2
+    Found link https://pypi.python.org/packages/a0/37/6e01fb27a8d911890b50b5b7e87ba1a203e9db53107a4977ccb24ec042ed/peewee-2.3.2.tar.gz#md5=e4a9ce2cf3166ced975b8f7fecca6271 (from https://pypi.python.org/simple/peewee/), version: 2.3.2
+    Found link https://pypi.python.org/packages/a0/dc/953475c4b13819473f553291265d3614a502d84a934fd96e820d7e8eb9f0/peewee-2.5.0.tar.gz#md5=f0d173f449b94a9c803adcb4d87d2708 (from https://pypi.python.org/simple/peewee/), version: 2.5.0
+    Found link https://pypi.python.org/packages/a8/e4/f74cd8afe2df02deea0866a230332cf4e87912c03f8b96ba9606f479b509/peewee-2.4.1.tar.gz#md5=ad6480d27d05e21e3c2e2dea646ee8de (from https://pypi.python.org/simple/peewee/), version: 2.4.1
+    Found link https://pypi.python.org/packages/ad/36/8f11c006c77bde3496a8adc3dc4a6b7d7f177b0607159a9adb7161c40e4b/peewee-2.9.0.tar.gz#md5=0c93baa919410a54828d47b259644dd8 (from https://pypi.python.org/simple/peewee/), version: 2.9.0
+    Found link https://pypi.python.org/packages/ae/c6/5347682c937e8bebda8598d34077abb78fbb18b3794d22a8f1a4d5d7556d/peewee-2.1.0.tar.gz#md5=76561d48ced4da6d4e29be6ac527405c (from https://pypi.python.org/simple/peewee/), version: 2.1.0
+    Found link https://pypi.python.org/packages/ae/cb/1404f6a95a4fb052497ea668080809a705bd35905032d280b78862172d25/peewee-2.3.0.tar.gz#md5=fc3c9c22df02ebbb741b81990a9e1bcc (from https://pypi.python.org/simple/peewee/), version: 2.3.0
+    Found link https://pypi.python.org/packages/b3/80/67a3b49d9e90c8e816d2adfe7c1f42f75fa1c5e75a201783e44ed9628a92/peewee-0.9.3.tar.gz#md5=9884bf28b0b0472748887e7b8aefe8c4 (from https://pypi.python.org/simple/peewee/), version: 0.9.3
+    Found link https://pypi.python.org/packages/b3/c6/4179ba8a608a9ea3b5ee49cdd342fe1524b660173d647b259e823aab024e/peewee-2.6.2.tar.gz#md5=af740edaee08fac2ac681c6275710204 (from https://pypi.python.org/simple/peewee/), version: 2.6.2
+    Found link https://pypi.python.org/packages/b5/6c/0093f825abca5d1978a5dd1602a1e432710bd6591a24251b4d32dab605af/peewee-2.4.7.tar.gz#md5=14687b7193dfdcdb0cf6f07ff59e4897 (from https://pypi.python.org/simple/peewee/), version: 2.4.7
+    Found link https://pypi.python.org/packages/c1/22/8d6bc2333b6478503ef3a260d20d76f1b814fdb1930ebe195d1a626a5aea/peewee-2.8.5.tar.gz#md5=24c2d2bedca3e423ab10e1b9dc4095b8 (from https://pypi.python.org/simple/peewee/), version: 2.8.5
+    Found link https://pypi.python.org/packages/c4/d3/b448c42be8740cb0103e5855c4f4b59797a34540f32a1f1cf6e5cce0be38/peewee-2.0.1.tar.gz#md5=ac167c974b92dd3d7717a7c90df3e38c (from https://pypi.python.org/simple/peewee/), version: 2.0.1
+    Found link https://pypi.python.org/packages/c6/61/720f68e42eb7c67d4bc5532387cc45cef03c38988ab6b6654a7ab79f4489/peewee-0.9.7.tar.gz#md5=f2221fab0ff899380ea9f2cc3d9f7957 (from https://pypi.python.org/simple/peewee/), version: 0.9.7
+    Found link https://pypi.python.org/packages/c6/c6/ee7165f2e639156a21c2c20a3c39e8706cdd8707b5d5aab3ee286e27cfce/peewee-2.10.1.tar.gz#md5=cdddd0b121058fc2ce1db54905b8a6c5 (from https://pypi.python.org/simple/peewee/), version: 2.10.1
+    Found link https://pypi.python.org/packages/ca/11/770ea027bf8d6c66f958f97c8f25fefd7fada9194951783fc8e8eb1ebeef/peewee-2.4.2.tar.gz#md5=f6452491f1760fa9084a39a01754b48c (from https://pypi.python.org/simple/peewee/), version: 2.4.2
+    Found link https://pypi.python.org/packages/cb/d0/dbaa0e3f02b01b7ecb373664a78a3447e5e4399c0887cd713ce3a1a2d6b4/peewee-0.3.2.tar.gz#md5=fc11a996e29eb9cb2f92765cc17b9521 (from https://pypi.python.org/simple/peewee/), version: 0.3.2
+    Found link https://pypi.python.org/packages/d6/d1/a069ff1d2d39d986f1602664937e54e2dafb1680197390352d89a286fb6b/peewee-2.8.4.tar.gz#md5=e509401b2824212d5bf4429e59f75499 (from https://pypi.python.org/simple/peewee/), version: 2.8.4
+    Found link https://pypi.python.org/packages/de/70/f2786224c35f74bde956ba6ea39de3b5d90eaa28e4081ac5dd3f7d0af948/peewee-0.9.9.tar.gz#md5=3cd582235a540ccbab5c3f8e8ebab040 (from https://pypi.python.org/simple/peewee/), version: 0.9.9
+    Found link https://pypi.python.org/packages/e1/78/6b32c45c1de1f81a651ba346e2f8ad6bd30bf5e97751ee66d4c758a265d6/peewee-2.3.3.tar.gz#md5=2abc7146760500148f63c8d889904002 (from https://pypi.python.org/simple/peewee/), version: 2.3.3
+    Found link https://pypi.python.org/packages/e9/9e/5388b4860db40981b2a48880217f5058bede6088701dfc5132bed36a0d65/peewee-0.6.1.tar.gz#md5=a7690779587fc249abcf835dac19a6db (from https://pypi.python.org/simple/peewee/), version: 0.6.1
+    Found link https://pypi.python.org/packages/ea/7f/2736862ea06cf5c229020ceec64e6dbe46f52295d3ecef34b5128cbb6ddf/peewee-2.2.0.tar.gz#md5=9e4cba0f921c595b2c6ad2e1cbd441de (from https://pypi.python.org/simple/peewee/), version: 2.2.0
+    Found link https://pypi.python.org/packages/ec/18/d9f43c906142d5ec2c92cef57805a0b677500688723ac0b2a4d57ae0624c/peewee-0.9.4.tar.gz#md5=d851f1c189d14309251d3b4cc8876c6c (from https://pypi.python.org/simple/peewee/), version: 0.9.4
+    Found link https://pypi.python.org/packages/ec/32/cfe362744d69126eac7e084b0250d54a6e0210f30934a515d91e58ba6862/peewee-2.5.1.tar.gz#md5=c728779cfae7a8b201bd6df4d49e41c3 (from https://pypi.python.org/simple/peewee/), version: 2.5.1
+    Found link https://pypi.python.org/packages/ed/29/f794588f85ecd7647ddb1dc671de60a7a477c5668306bc3fcbb8333ad1a7/peewee-2.1.1.tar.gz#md5=93d2ec0013ff1f0fc8858ee7ab6d936e (from https://pypi.python.org/simple/peewee/), version: 2.1.1
+    Found link https://pypi.python.org/packages/f0/5a/f6c73ef942af9b35da78a4f03d95ae6981653d6ab6e096639a32620e406e/peewee-0.9.8.tar.gz#md5=9993f2ac7d7609cbddb309cbb0647f77 (from https://pypi.python.org/simple/peewee/), version: 0.9.8
+    Found link https://pypi.python.org/packages/f4/20/9473cb85709e403769ab2fb0bfa82cce1c58fb1993c98418d3ec9a2f48d5/peewee-2.0.4.tar.gz#md5=bee17963b55ff79a99edabafd70d35ab (from https://pypi.python.org/simple/peewee/), version: 2.0.4
+    Found link https://pypi.python.org/packages/f4/fb/3d529e0ee4a4580e74aae76a8d924197f1a8e9d808b9e61d0401cc5c5327/peewee-0.2.1.tar.gz#md5=728a15c59495fbe7ae3f47f7c9ef3e5a (from https://pypi.python.org/simple/peewee/), version: 0.2.1
+    Found link https://pypi.python.org/packages/f9/8a/f3a33c8d56e054bf584024c5c16b1e672dba613eecf1bd429ab045f83bce/peewee-2.4.3.tar.gz#md5=d21820f425824feee9211a936893f4d6 (from https://pypi.python.org/simple/peewee/), version: 2.4.3
+  Using version 2.10.2 (newest of versions: 2.10.2, 2.10.1, 2.10.0, 2.9.2, 2.9.1, 2.9.0, 2.8.8, 2.8.7, 2.8.5, 2.8.4, 2.8.3, 2.8.2, 2.8.1, 2.8.0, 2.7.4, 2.7.3, 2.7.2, 2.7.1, 2.7.0, 2.6.4, 2.6.3, 2.6.2, 2.6.1, 2.6.0, 2.5.1, 2.5.0, 2.4.7, 2.4.6, 2.4.5, 2.4.4, 2.4.3, 2.4.2, 2.4.1, 2.4.0, 2.3.3, 2.3.2, 2.3.1, 2.3.0, 2.2.5, 2.2.4, 2.2.3, 2.2.2, 2.2.1, 2.2.0, 2.1.7, 2.1.6, 2.1.5, 2.1.4, 2.1.3, 2.1.2, 2.1.1, 2.1.0, 2.0.9, 2.0.8, 2.0.7, 2.0.6, 2.0.5, 2.0.4, 2.0.3, 2.0.2, 2.0.1, 2.0.0, 1.0.0, 0.9.9, 0.9.8, 0.9.7, 0.9.6, 0.9.5, 0.9.4, 0.9.3, 0.9.2, 0.9.1, 0.9.0, 0.8.2, 0.8.1, 0.8.0, 0.7.5, 0.7.4, 0.7.3, 0.7.2, 0.7.1, 0.7.0, 0.6.2, 0.6.1, 0.6.0, 0.5.0, 0.4.0, 0.3.2, 0.3.1, 0.3.0, 0.2.2, 0.2.1, 0.2.0, 0.1.1, 0.1.0)
+  Downloading from URL https://pypi.python.org/packages/7a/bc/aafce76cae9362dccf70e35c16a6cc11d114ebb640bbb86d76255be5c0d6/peewee-2.10.2.tar.gz#md5=d0639ecbc08f9e6a1115fc661d59a34d (from https://pypi.python.org/simple/peewee/)
+  Running setup.py (path:/tmp/pip-build-662124/peewee/setup.py) egg_info for package peewee
+    /tmp/pip-build-662124/peewee/setup.py:23: UserWarning: Cython C extensions for peewee will NOT be built, because Cython does not seem to be installed. To enable Cython C extensions, install Cython >=0.22.1.
+      'extensions, install Cython >=' + cython_min_version + '.')
+    running egg_info
+    creating pip-egg-info/peewee.egg-info
+    writing pip-egg-info/peewee.egg-info/PKG-INFO
+    writing top-level names to pip-egg-info/peewee.egg-info/top_level.txt
+    writing dependency_links to pip-egg-info/peewee.egg-info/dependency_links.txt
+    writing manifest file 'pip-egg-info/peewee.egg-info/SOURCES.txt'
+    warning: manifest_maker: standard file '-c' not found
+    
+    reading manifest file 'pip-egg-info/peewee.egg-info/SOURCES.txt'
+    writing manifest file 'pip-egg-info/peewee.egg-info/SOURCES.txt'
+  Source in /tmp/pip-build-662124/peewee has version 2.10.2, which satisfies requirement peewee
+Installing collected packages: peewee
+  Running setup.py install for peewee
+    Running command /usr/bin/python -c "import setuptools, tokenize;__file__='/tmp/pip-build-662124/peewee/setup.py';exec(compile(getattr(tokenize, 'open', open)(__file__).read().replace('\r\n', '\n'), __file__, 'exec'))" install --record /tmp/pip-ghCukU-record/install-record.txt --single-version-externally-managed --compile
+    /tmp/pip-build-662124/peewee/setup.py:23: UserWarning: Cython C extensions for peewee will NOT be built, because Cython does not seem to be installed. To enable Cython C extensions, install Cython >=0.22.1.
+      'extensions, install Cython >=' + cython_min_version + '.')
+    running install
+    running build
+    running build_py
+    creating build
+    creating build/lib.linux-armv7l-2.7
+    copying peewee.py -> build/lib.linux-armv7l-2.7
+    copying pwiz.py -> build/lib.linux-armv7l-2.7
+    creating build/lib.linux-armv7l-2.7/playhouse
+    copying playhouse/hybrid.py -> build/lib.linux-armv7l-2.7/playhouse
+    copying playhouse/reflection.py -> build/lib.linux-armv7l-2.7/playhouse
+    copying playhouse/__init__.py -> build/lib.linux-armv7l-2.7/playhouse
+    copying playhouse/shortcuts.py -> build/lib.linux-armv7l-2.7/playhouse
+    copying playhouse/sqlcipher_ext.py -> build/lib.linux-armv7l-2.7/playhouse
+    copying playhouse/csv_loader.py -> build/lib.linux-armv7l-2.7/playhouse
+    copying playhouse/sqlite_udf.py -> build/lib.linux-armv7l-2.7/playhouse
+    copying playhouse/djpeewee.py -> build/lib.linux-armv7l-2.7/playhouse
+    copying playhouse/dataset.py -> build/lib.linux-armv7l-2.7/playhouse
+    copying playhouse/postgres_ext.py -> build/lib.linux-armv7l-2.7/playhouse
+    copying playhouse/migrate.py -> build/lib.linux-armv7l-2.7/playhouse
+    copying playhouse/kv.py -> build/lib.linux-armv7l-2.7/playhouse
+    copying playhouse/signals.py -> build/lib.linux-armv7l-2.7/playhouse
+    copying playhouse/gfk.py -> build/lib.linux-armv7l-2.7/playhouse
+    copying playhouse/read_slave.py -> build/lib.linux-armv7l-2.7/playhouse
+    copying playhouse/apsw_ext.py -> build/lib.linux-armv7l-2.7/playhouse
+    copying playhouse/sqlite_ext.py -> build/lib.linux-armv7l-2.7/playhouse
+    copying playhouse/csv_utils.py -> build/lib.linux-armv7l-2.7/playhouse
+    copying playhouse/test_utils.py -> build/lib.linux-armv7l-2.7/playhouse
+    copying playhouse/pool.py -> build/lib.linux-armv7l-2.7/playhouse
+    copying playhouse/db_url.py -> build/lib.linux-armv7l-2.7/playhouse
+    copying playhouse/sqliteq.py -> build/lib.linux-armv7l-2.7/playhouse
+    copying playhouse/flask_utils.py -> build/lib.linux-armv7l-2.7/playhouse
+    copying playhouse/berkeleydb.py -> build/lib.linux-armv7l-2.7/playhouse
+    copying playhouse/fields.py -> build/lib.linux-armv7l-2.7/playhouse
+    running build_scripts
+    creating build/scripts-2.7
+    copying and adjusting pwiz.py -> build/scripts-2.7
+    copying and adjusting playhouse/pskel -> build/scripts-2.7
+    changing mode of build/scripts-2.7/pwiz.py from 644 to 755
+    changing mode of build/scripts-2.7/pskel from 644 to 755
+    running install_lib
+    copying build/lib.linux-armv7l-2.7/peewee.py -> /usr/local/lib/python2.7/dist-packages
+    error: [Errno 13] Permission denied: '/usr/local/lib/python2.7/dist-packages/peewee.py'
+    Complete output from command /usr/bin/python -c "import setuptools, tokenize;__file__='/tmp/pip-build-662124/peewee/setup.py';exec(compile(getattr(tokenize, 'open', open)(__file__).read().replace('\r\n', '\n'), __file__, 'exec'))" install --record /tmp/pip-ghCukU-record/install-record.txt --single-version-externally-managed --compile:
+    /tmp/pip-build-662124/peewee/setup.py:23: UserWarning: Cython C extensions for peewee will NOT be built, because Cython does not seem to be installed. To enable Cython C extensions, install Cython >=0.22.1.
+
+  'extensions, install Cython >=' + cython_min_version + '.')
+
+running install
+
+running build
+
+running build_py
+
+creating build
+
+creating build/lib.linux-armv7l-2.7
+
+copying peewee.py -> build/lib.linux-armv7l-2.7
+
+copying pwiz.py -> build/lib.linux-armv7l-2.7
+
+creating build/lib.linux-armv7l-2.7/playhouse
+
+copying playhouse/hybrid.py -> build/lib.linux-armv7l-2.7/playhouse
+
+copying playhouse/reflection.py -> build/lib.linux-armv7l-2.7/playhouse
+
+copying playhouse/__init__.py -> build/lib.linux-armv7l-2.7/playhouse
+
+copying playhouse/shortcuts.py -> build/lib.linux-armv7l-2.7/playhouse
+
+copying playhouse/sqlcipher_ext.py -> build/lib.linux-armv7l-2.7/playhouse
+
+copying playhouse/csv_loader.py -> build/lib.linux-armv7l-2.7/playhouse
+
+copying playhouse/sqlite_udf.py -> build/lib.linux-armv7l-2.7/playhouse
+
+copying playhouse/djpeewee.py -> build/lib.linux-armv7l-2.7/playhouse
+
+copying playhouse/dataset.py -> build/lib.linux-armv7l-2.7/playhouse
+
+copying playhouse/postgres_ext.py -> build/lib.linux-armv7l-2.7/playhouse
+
+copying playhouse/migrate.py -> build/lib.linux-armv7l-2.7/playhouse
+
+copying playhouse/kv.py -> build/lib.linux-armv7l-2.7/playhouse
+
+copying playhouse/signals.py -> build/lib.linux-armv7l-2.7/playhouse
+
+copying playhouse/gfk.py -> build/lib.linux-armv7l-2.7/playhouse
+
+copying playhouse/read_slave.py -> build/lib.linux-armv7l-2.7/playhouse
+
+copying playhouse/apsw_ext.py -> build/lib.linux-armv7l-2.7/playhouse
+
+copying playhouse/sqlite_ext.py -> build/lib.linux-armv7l-2.7/playhouse
+
+copying playhouse/csv_utils.py -> build/lib.linux-armv7l-2.7/playhouse
+
+copying playhouse/test_utils.py -> build/lib.linux-armv7l-2.7/playhouse
+
+copying playhouse/pool.py -> build/lib.linux-armv7l-2.7/playhouse
+
+copying playhouse/db_url.py -> build/lib.linux-armv7l-2.7/playhouse
+
+copying playhouse/sqliteq.py -> build/lib.linux-armv7l-2.7/playhouse
+
+copying playhouse/flask_utils.py -> build/lib.linux-armv7l-2.7/playhouse
+
+copying playhouse/berkeleydb.py -> build/lib.linux-armv7l-2.7/playhouse
+
+copying playhouse/fields.py -> build/lib.linux-armv7l-2.7/playhouse
+
+running build_scripts
+
+creating build/scripts-2.7
+
+copying and adjusting pwiz.py -> build/scripts-2.7
+
+copying and adjusting playhouse/pskel -> build/scripts-2.7
+
+changing mode of build/scripts-2.7/pwiz.py from 644 to 755
+
+changing mode of build/scripts-2.7/pskel from 644 to 755
+
+running install_lib
+
+copying build/lib.linux-armv7l-2.7/peewee.py -> /usr/local/lib/python2.7/dist-packages
+
+error: [Errno 13] Permission denied: '/usr/local/lib/python2.7/dist-packages/peewee.py'
+
+----------------------------------------
+Cleaning up...
+Command /usr/bin/python -c "import setuptools, tokenize;__file__='/tmp/pip-build-662124/peewee/setup.py';exec(compile(getattr(tokenize, 'open', open)(__file__).read().replace('\r\n', '\n'), __file__, 'exec'))" install --record /tmp/pip-ghCukU-record/install-record.txt --single-version-externally-managed --compile failed with error code 1 in /tmp/pip-build-662124/peewee
+Exception information:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/pip/basecommand.py", line 122, in main
+    status = self.run(options, args)
+  File "/usr/lib/python2.7/dist-packages/pip/commands/install.py", line 295, in run
+    requirement_set.install(install_options, global_options, root=options.root_path)
+  File "/usr/lib/python2.7/dist-packages/pip/req.py", line 1436, in install
+    requirement.install(install_options, global_options, *args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/pip/req.py", line 707, in install
+    cwd=self.source_dir, filter_stdout=self._filter_install, show_stdout=False)
+  File "/usr/lib/python2.7/dist-packages/pip/util.py", line 716, in call_subprocess
+    % (command_desc, proc.returncode, cwd))
+InstallationError: Command /usr/bin/python -c "import setuptools, tokenize;__file__='/tmp/pip-build-662124/peewee/setup.py';exec(compile(getattr(tokenize, 'open', open)(__file__).read().replace('\r\n', '\n'), __file__, 'exec'))" install --record /tmp/pip-ghCukU-record/install-record.txt --single-version-externally-managed --compile failed with error code 1 in /tmp/pip-build-662124/peewee
