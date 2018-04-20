@@ -112,10 +112,10 @@ class Mppt(object):
 
 def mysql_insert(mqtt):
 
-    conn = pymysql.connect(host='192.168.2.20',
+    conn = pymysql.connect(host='127.0.0.1',
                            user='root',
-                           password='elsysaa',
-                           db='wifi',
+                           password='elsys1234',
+                           db='mppt_log',
                            charset='utf8mb4')
 
     time.strftime('%Y-%m-%d %H:%M:%S')
@@ -217,7 +217,8 @@ if __name__ == "__main__":
             mppt.show()
             mysql_insert(mppt)
 
-#        mppt.set_dummy()
- #       mysql_insert(mppt)
-
+        # mppt.set_dummy()
+        # mysql_insert(mppt)
+        # mppt.show()
+        
         time.sleep(1)
